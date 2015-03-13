@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html style="opacity: 0;">
+<html style="opacity: 1;">
 
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- if using browserify, uncomment the line below -->
-    <!-- <link rel="stylesheet" type="text/css" href="./dist/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./dist/style.css">
 </head>
 
 <body>
-    <div class="container"></div>
+
+<div class="container">
+
+   <nav class="menu menu-fixed-top">
+        <div class="nav-menu nav-menu-left">
+          <a id="englishbutton">English</a>
+          <a id="spanishbutton">Español</a>
+          </div>
+
+        <div class="nav-menu nav-menu-right">
+            <ul class="nav-menu-list">
+                 <li class="nav-menu-item"><a>About</a></li>
+                <li class="nav-menu-item"><a>Portfolio</a></li>
+                 <li class="nav-menu-item"><a>Contact</a></li>
+            </ul>
+        </div>
+   </nav>
+   <div class="landingpagename">Nicole Cano
+        <div  class="landingpage-subtext">Web Developer | Translator
+        </div>
+   </div>
+
+ </div>
+
+
+
+
+
+
+    <!-- <div class="container"></div> -->
     <!-- if using loader, use the line below -->
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
     <!-- otherwise if using browserify, comment out the above line and uncomment the following line -->
