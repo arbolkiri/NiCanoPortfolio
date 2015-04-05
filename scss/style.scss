@@ -66,13 +66,19 @@
 img {
     max-width: 100%;
 }
+html,
 body {
+    position: relative;
+    height: 100%;
     transition: opacity .25s ease;
 }
 .container {
-    height: 1000px;
-    background-size: cover;
+    min-height: 700px;
+    background-size: 100% 100%;
     background-image: url("../Images/redRocks.jpg");
+}
+.myname{
+    margin-bottom: 10px;
 }
 .landingpagename {
     font-size: 75px;
@@ -89,6 +95,7 @@ body {
 .landingpage-subtext {
     font-size: 30px;
     text-align: center;
+    width: 92%;
 }
 .menu.menu-fixed-top {
     font-size: 30px;
@@ -121,6 +128,7 @@ body {
     float: left;
     padding: 30px;
     margin-left: 40px;
+    // width: 80%;
 }
 .nav-menu-list {
     float: right;
@@ -134,4 +142,66 @@ body {
 #englishbutton{
     margin-right: 40px;
 
+}
+
+//for mobilephones
+//** still need to make changes to several widths i.e. container, landingpagename and for pads
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+    .landingpagename {
+        transform: translateY(-44px);
+        & > div {
+            display: relative;
+        }
+        & > .myname {
+            font-size: 45px;
+            height: 60%;
+            margin-left: 10px;
+        }
+        & > .landingpage-subtext {
+            font-size: 18px;
+            width: 65%
+        }
+    }
+}
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+ .nav-menu-left{
+            width: 46%;
+            padding: 0px;
+            margin-left: 69px;
+            font-size: 18px;
+        }
+}
+
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+.nav-menu-right{
+    display: inline-block;
+    width: 80%;
+  }
+}
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+.nav-menu-list{
+            font-size: 18px;
+            margin-top: 2px;
+            padding: 0px;
+            margin-right: 48px;
+            margin-bottom: 0px;
+  & > li{
+    margin-left: 18px;
+  }
+  }
+}
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+.container{
+   min-height: 550px;
+  }
 }
