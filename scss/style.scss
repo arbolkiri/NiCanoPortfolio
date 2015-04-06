@@ -150,7 +150,8 @@ body {
 and (min-width: 300px)
 and (max-width: 1000px){
     .landingpagename {
-        transform: translateY(-44px);
+        transform: translateX(-48px);
+        width: 79%;
         & > div {
             display: relative;
         }
@@ -161,7 +162,8 @@ and (max-width: 1000px){
         }
         & > .landingpage-subtext {
             font-size: 18px;
-            width: 65%
+            width: 75%;
+            transform: translateX(13px);
         }
     }
 }
@@ -171,8 +173,11 @@ and (max-width: 1000px){
  .nav-menu-left{
             width: 46%;
             padding: 0px;
-            margin-left: 69px;
+            margin-left: 123px;
             font-size: 18px;
+       & > #englishbutton{
+        margin-right: 19px;
+       }
         }
 }
 
@@ -181,7 +186,7 @@ and (min-width: 300px)
 and (max-width: 1000px){
 .nav-menu-right{
     display: inline-block;
-    width: 80%;
+    width: 88%;
   }
 }
 @media screen
@@ -194,7 +199,7 @@ and (max-width: 1000px){
             margin-right: 48px;
             margin-bottom: 0px;
   & > li{
-    margin-left: 18px;
+    margin-left: 11px;
   }
   }
 }
@@ -203,5 +208,12 @@ and (min-width: 300px)
 and (max-width: 1000px){
 .container{
    min-height: 550px;
+  }
+}
+@media screen
+and (min-width: 300px)
+and (max-width: 1000px){
+.menu-fixed-top{
+   min-width: 95%;
   }
 }
