@@ -94,8 +94,8 @@ body {
 }
 .landingpage-subtext {
     font-size: 30px;
-    text-align: center;
-    width: 92%;
+    // text-align: center;
+    width: 100%;
 }
 .menu.menu-fixed-top {
     font-size: 30px;
@@ -125,7 +125,7 @@ body {
     padding: 30px;
 }
 .nav-menu-left{
-    float: left;
+    // float: left;
     padding: 30px;
     margin-left: 40px;
     // width: 80%;
@@ -152,9 +152,9 @@ and (max-width: 1000px){
     .landingpagename {
         transform: translateX(-48px);
         width: 79%;
-        & > div {
-            display: relative;
-        }
+        // & > div {
+        //     display: relative;
+        // }
         & > .myname {
             font-size: 45px;
             height: 60%;
@@ -163,7 +163,7 @@ and (max-width: 1000px){
         & > .landingpage-subtext {
             font-size: 18px;
             width: 100%;
-            // transform: translateX(13px);
+           margin-left: 21px;
         }
     }
 }
@@ -173,7 +173,7 @@ and (max-width: 1000px){
  .nav-menu-left{
             width: 100%;
             padding: 0px;
-            margin-left: 17px;
+            // margin-left: 17px;
             font-size: 18px;
        & > #englishbutton{
         margin-right: 19px;
@@ -192,15 +192,14 @@ and (max-width: 1000px){
 @media screen
 and (min-width: 300px)
 and (max-width: 1000px){
-.nav-menu-list{
+.nav-menu-item{
             font-size: 18px;
             margin-top: 2px;
             padding: 0px;
-            margin-right: 48px;
+            // margin-right: 48px;
             margin-bottom: 0px;
-  & > li{
     margin-left: 11px;
-  }
+
   }
 }
 @media screen
@@ -214,6 +213,7 @@ and (max-width: 1000px){
 and (min-width: 300px)
 and (max-width: 1000px){
 .menu-fixed-top{
-   min-width: 100%;
+   width: 100%;
+   margin-left: 76px;
   }
 }
