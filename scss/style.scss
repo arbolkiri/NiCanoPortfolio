@@ -208,7 +208,7 @@ and (max-width: 550px){
 and (min-width: 300px)
 and (max-width: 550px){
 .container{
-   min-height: 550px;
+   min-height: 520px;
   }
 }
 @media screen
@@ -216,6 +216,6 @@ and (min-width: 300px)
 and (max-width: 550px){
 .menu-fixed-top{
    width: 100%;
-   margin-left: auto;
+   margin-left: 47px;
   }
 }
