@@ -144,13 +144,12 @@ body {
 
 }
 
-//for mobilephones
-//** still need to make changes to several widths i.e. container, landingpagename and for pads
+//scss mobilephones
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
     .landingpagename {
-        transform: translateX(-48px);
+        transform: translateX(-56px);
         width: 79%;
         padding-top: 27px;
         // & > div {
@@ -170,7 +169,7 @@ and (max-width: 550px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
  .nav-menu-left{
             width: 100%;
             padding: 0px;
@@ -185,7 +184,7 @@ and (max-width: 550px){
 
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
 .nav-menu-right{
     display: inline-block;
     width: 100%;
@@ -193,7 +192,7 @@ and (max-width: 550px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
 .nav-menu-item{
             font-size: 18px;
             margin-top: 2px;
@@ -208,14 +207,109 @@ and (max-width: 550px){
 and (min-width: 300px)
 and (max-width: 550px){
 .container{
-   min-height: 520px;
+   min-height: 500px;
   }
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
 .menu-fixed-top{
    width: 100%;
-   margin-left: 47px;
+   margin-left: 41px;
+   font-size: 22px;
+   position:fixed;
+  }
+}
+
+
+//SCSS FOR TABLETS
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+    .landingpagename {
+        transform: translateX(-16px);
+        width: 66%;
+        padding-top: 0px;
+        // & > div {
+        //     display: relative;
+        // }
+        & > .myname {
+            font-size: 45px;
+            height: 60%;
+            margin-left: 10px;
+            margin-bottom: 0px;
+        }
+        & > .landingpage-subtext {
+            font-size: 18px;
+            width: 100%;
+           margin-left: 21px;
+        }
+    }
+}
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+ .nav-menu-left{
+            width: 38%;
+            padding: 10px;
+            margin-left: 12px;
+            margin-right: 0px;
+            font-size: 20px;
+            display: inline-block;
+            position: relative;
+       & > #englishbutton{
+        margin-right: 16px;
+       }
+        }
+}
+
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+.nav-menu-right{
+    display: inline-block;
+    width: 58%;
+    padding: 10px;
+    padding-left: 0px;
+    position: relative;
+
+    & > #about,
+        #portfolio{
+            margin-right: 11px;
+
+    }
+    &> #contact {
+        margin-left: 0px;
+    }
+  }
+}
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+.nav-menu-item{
+            font-size: 20px;
+            margin-top: 2px;
+            padding: 0px;
+            // margin-right: 48px;
+            margin-bottom: 0px;
+    margin-left: 6px;
+
+  }
+}
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+.container{
+   min-height: 420px;
+  }
+}
+@media screen
+and (min-width: 501px)
+and (max-width: 1000px){
+#topmenuresponsivetablet{
+   width: 100%;
+   margin-left: 11px;
+   position: relative !important;
+   z-index: 1;
   }
 }
