@@ -27,8 +27,8 @@ function app(){
 
         // other stuff
         {url: "./bower_components/pace/pace.min.js"},
-        {url: "./js/TemplateView.js"},
-        {url: "./portfolio.js"}
+        {url: "./js/TemplateView.js"}
+        // {url: "./portfolio.js"}
     ).then(function(){
         // if turning on JSnoX, uncommment the following line
         // window.d = jsnox(React);
