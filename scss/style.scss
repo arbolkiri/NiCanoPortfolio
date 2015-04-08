@@ -147,7 +147,7 @@ body {
 //scss mobilephones
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
     .landingpagename {
         transform: translateX(-56px);
         width: 79%;
@@ -169,7 +169,7 @@ and (max-width: 579px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
  .nav-menu-left{
             width: 100%;
             padding: 0px;
@@ -184,7 +184,7 @@ and (max-width: 579px){
 
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
 .nav-menu-right{
     display: inline-block;
     width: 100%;
@@ -192,7 +192,7 @@ and (max-width: 579px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
 .nav-menu-item{
             font-size: 18px;
             margin-top: 2px;
@@ -205,14 +205,14 @@ and (max-width: 579px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
 .container{
    min-height: 500px;
   }
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 579px){
+and (max-width: 539px){
 .menu-fixed-top{
    width: 100%;
    margin-left: 41px;
@@ -224,7 +224,7 @@ and (max-width: 579px){
 
 //SCSS FOR TABLETS
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
     .landingpagename {
         transform: translateX(-16px);
@@ -247,7 +247,7 @@ and (max-width: 1000px){
     }
 }
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
  .nav-menu-left{
             width: 38%;
@@ -264,7 +264,7 @@ and (max-width: 1000px){
 }
 
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
 .nav-menu-right{
     display: inline-block;
@@ -283,7 +283,7 @@ and (max-width: 1000px){
   }
 }
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
 .nav-menu-item{
             font-size: 20px;
@@ -296,14 +296,14 @@ and (max-width: 1000px){
   }
 }
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
 .container{
    min-height: 420px;
   }
 }
 @media screen
-and (min-width: 580px)
+and (min-width: 540px)
 and (max-width: 1000px){
 .menu-fixed-top{
    width: 100%;
