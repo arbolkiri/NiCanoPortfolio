@@ -205,7 +205,7 @@ and (max-width: 500px){
 }
 @media screen
 and (min-width: 300px)
-and (max-width: 550px){
+and (max-width: 500px){
 .container{
    min-height: 500px;
   }
@@ -306,10 +306,105 @@ and (max-width: 1000px){
 @media screen
 and (min-width: 501px)
 and (max-width: 1000px){
-#topmenuresponsivetablet{
+.menu-fixed-top{
    width: 100%;
    margin-left: 11px;
    position: relative !important;
    z-index: 1;
+  }
+}
+
+//SCSS FOR LAPTOPS ------------------------------------------>
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+    .landingpagename {
+        transform: translate(-2rem, -2rem);
+        width: 66%;
+        padding-top: 0px;
+        display: absolute;
+        // & > div {
+        //     display: relative;
+        // }
+        & > .myname {
+            font-size: 75px;
+            height: 60%;
+            margin-left: 33px;
+            margin-bottom: 40px;
+        }
+        & > .landingpage-subtext {
+            font-size: 30px;
+            width: 100%;
+           margin-left: 48px;
+        }
+    }
+}
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+ .nav-menu-left{
+            width: 58%;
+            padding: 10px;
+            margin-left: 56px;
+            margin-right: 25px;
+            font-size: 26px;
+            display: inline-block;
+            position: relative;
+       & > #englishbutton{
+        margin-right: 16px;
+       }
+        }
+}
+
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+.nav-menu-right{
+    display: inline-block;
+    width: 38%;
+    font-size: 26px;
+    padding: 10px 0px 10px 31px;
+    // padding-left: 25px;
+    position: absolute;
+
+    & > #about,
+        #portfolio{
+            margin-right: 11px;
+            font-size: 26px;
+
+    }
+    &> #contact {
+        margin-left: 0px;
+        font-size: 26px;
+    }
+  }
+}
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+.nav-menu-item{
+            font-size: 20px;
+            margin-top: 2px;
+            padding: 0px;
+            // margin-right: 48px;
+            margin-bottom: 0px;
+    margin-left: 6px;
+
+  }
+}
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+.container{
+   min-height: 650px;
+  }
+}
+@media screen
+and (min-width: 1001px)
+and (max-width: 1366px){
+#topmenuresponsivetablet{
+   width: 100%;
+   margin-left: 11px;
+   position: fixed !important;
   }
 }
